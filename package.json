@@ -1,0 +1,28 @@
+{
+  "name": "qrune",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "repository": "https://github.com/github:/panopset/qrune",
+  "author": "Karl Dinwiddie",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "kute": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
