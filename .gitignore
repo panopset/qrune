@@ -1,7 +1,8 @@
 .project
 .yarn
 .yarnrc
+node_modules
 npm-debug.log
+temp
 yarn-error.log
 yarn.lock
-node_modules
