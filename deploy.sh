@@ -1,1 +1,1 @@
-scp -r build/* karl@p:/var/www/qrune.com/html/
+scp -r build/* @p:/var/www/qrune.com/html/
