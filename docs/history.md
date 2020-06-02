@@ -4,7 +4,7 @@
 
 # History
 
-Command used to create package.json:
+Create package.json:
 
     yarn init
     yarn add kute
