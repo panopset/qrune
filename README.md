@@ -7,7 +7,3 @@ home ~ [history](docs/history.md)
     yarn
     yarn build
     ./deploy.sh
-
-# Server
-
-
