@@ -2,3 +2,19 @@ body{ background-color: #000;}
 .qr {
  color: #0ff;
 }
+
+.yb {
+fill:green;
+stroke:white;
+stroke-width:2
+}
+
+.bb {
+fill:cyan;
+stroke:red;
+stroke-width:2
+}
+
+.yb:hover {
+transform: translateX(50px);
+}

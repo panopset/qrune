@@ -2,6 +2,10 @@
 
 home ~ [history](docs/history.md)
 
+# Local
+
+    yarn start
+
 # Deploy
  
     yarn
