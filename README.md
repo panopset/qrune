@@ -7,7 +7,8 @@ home ~ [history](docs/history.md)
     yarn start
 
 # Deploy
+
+Define your server as p, or update deploy.sh to match your server, then:
  
-    yarn
-    yarn build
     ./deploy.sh
+    

@@ -3,6 +3,18 @@ body{ background-color: #000; color: #ff0}
  color: #0ff;
 }
 
+.crater {
+fill:blue;
+stroke:white;
+stroke-width:4
+}
+
+.ab {
+fill:purple;
+stroke:white;
+stroke-width:2
+}
+
 .yb {
 fill:green;
 stroke:white;
@@ -18,3 +30,26 @@ stroke-width:2
 .yb:hover {
 transform: translateX(50px);
 }
+
+a:link {
+  color: #ffc;
+}
+a:visited {
+  color: #ff9;
+}
+a:hover {
+  color: #ff0;
+}
+a:active {
+  color: #fff;
+  background-color: #dd0000;
+}
+
+a.cmd {
+ text-decoration: none;
+}
+
+.active {
+  background-color: #999;
+}
+
