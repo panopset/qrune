@@ -10,6 +10,14 @@ import Crater from './cmp/crater.jsx';
 import Add from './cmp/adddorp.jsx';
 
 class Game extends Component {
+  constructor(props) {
+    super(props);
+    var ctr = {x:   0, y:   0, w: 600, h: 600, cb: '9af', cf: '000'};
+    var cds = {x: 100, y: 100, w:   4, h:   4, cb: 'd00', cf: 'ff0'};
+    this.state = {
+      univ: [ctr, cds]
+    };
+  }
   render() {
     return (
      <HashRouter>

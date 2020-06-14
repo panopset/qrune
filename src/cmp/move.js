@@ -1,15 +1,15 @@
 export function move(coords) {
- if (coords.y++ > 20) {
+ if (coords.y++ > 4) {
   coords.y = 0;
   }
-  if (coords.x++ > 50) {
+  if (coords.x++ > 4) {
    coords.x = 0;
   }
   coords.x++;
-  var ih = '<ellipse cx=' + (200 + coords.x) + ' cy="' + (20 + coords.y) + '" rx="100" ry="30" />'
+  var ih = '<ellipse style="fill:yellow;" cx=' + (200 + coords.x) + ' cy="' + (100 + coords.y) + '" rx="4" ry="4" />';
   var rtn = {
-   innerHTML: ih,
    cds: coords,
+   innerHTML: ih
   };
  return rtn;
 }

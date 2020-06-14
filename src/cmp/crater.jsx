@@ -10,7 +10,7 @@ export default class Crater extends Component {
 
  render() {
   return (
-<div className="bb" ><svg ref={this.dorpRef} height="100" width="500"/></div>
+<div className="bb" ><svg ref={this.dorpRef} height="600" width="600"/></div>
   );
  }
 
@@ -18,11 +18,11 @@ export default class Crater extends Component {
   var coords = {x: 0, y: 0};
   var anim = this.dorpRef.current;
   function step() {
-   foo();
+   gamecycle();
    window.requestAnimationFrame(step);
   }
   window.requestAnimationFrame(step);
-  function foo() {
+  function gamecycle() {
    var rslt = move(coords);
    coords = rslt.cds;
    anim.innerHTML = rslt.innerHTML;
