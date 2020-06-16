@@ -5,16 +5,22 @@ export default class Crater extends Component {
 
  constructor(props) {
   super(props);
+  
+  
+  
+  
   this.dorpRef = React.createRef();
  }
 
  render() {
   return (
-<div className="bb" ><svg ref={this.dorpRef} height="600" width="600"/></div>
+<div ref={ (divElement) => { this.divElement = divElement } } className="bb" ><svg ref={this.dorpRef}/></div>
   );
  }
 
  componentDidMount() {
+  var w = this.divElement.clientWidth;
+  var h = this.divElement.clientHeight;
   var coords = {x: 0, y: 0};
   var anim = this.dorpRef.current;
   function step() {

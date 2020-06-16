@@ -9,23 +9,6 @@ stroke:white;
 stroke-width:4
 }
 
-.ab {
-fill:purple;
-stroke:white;
-stroke-width:2
-}
-
-.yb {
-fill:green;
-stroke:white;
-stroke-width:2
-}
-
-.bb {
-fill:cyan;
-stroke:red;
-stroke-width:2
-}
 
 .yb:hover {
 transform: translateX(50px);
@@ -52,4 +35,3 @@ a.cmd {
 .active {
   background-color: #999;
 }
-
