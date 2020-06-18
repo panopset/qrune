@@ -13,6 +13,8 @@ export default class Header extends Component {
 &nbsp;&nbsp;~&nbsp;&nbsp;
 <NavLink to="/add">+</NavLink>
 &nbsp;&nbsp;~&nbsp;&nbsp;
+<NavLink to="/config">Config</NavLink>
+&nbsp;&nbsp;~&nbsp;&nbsp;
 <a href="https://github.com/panopset/qrune">Source</a>
 </div>
 

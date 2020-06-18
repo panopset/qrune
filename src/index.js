@@ -8,6 +8,7 @@ import {
 import Header from './cmp/header.jsx';
 import Crater from './cmp/crater.jsx';
 import Add from './cmp/adddorp.jsx';
+import Config from './cmp/config.jsx';
 
 class Game extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class Game extends Component {
          <Switch>
           <Route exact path="/" component={Crater}/>
           <Route path="/add" component={Add}/>
+          <Route path="/config" component={Config}/>
          </Switch>
         </div>
       </div>
