@@ -11,4 +11,3 @@ home ~ [history](docs/history.md)
 Define your server as p, or update deploy.sh to match your server, then:
  
     ./deploy.sh
-    
